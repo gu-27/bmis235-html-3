@@ -1,0 +1,50 @@
+/* styles.css
+   One file that styles every page linked to it.
+   Change something here and every page changes. */
+
+body {
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #f4efe6;
+    color: #2b2b2b;
+    margin: 0;
+    padding: 0 20px 40px 20px;
+}
+
+/* the menu at the top of every page */
+nav {
+    background-color: #2b5d8c;
+    color: white;
+    padding: 14px;
+    text-align: center;
+    font-size: 18px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    color: #2b5d8c;
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #777777;
+    margin-top: 40px;
+}
